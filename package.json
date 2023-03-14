@@ -2,11 +2,11 @@
   "name": "arweave",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ./_/index.js",
+    "watch": "tsc -b -w"
   },
   "keywords": [],
   "author": "",
