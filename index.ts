@@ -5,7 +5,7 @@ const arweave = Arweave.init({
   port: 443,
   protocol: "https",
   timeout: 20000,
-  logging: false,
+  logging: true,
 });
 
 const key = await arweave.wallets.generate();
