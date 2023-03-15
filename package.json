@@ -12,7 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ardb": "^1.1.10",
     "arweave": "^1.13.1",
+    "dotenv": "^16.0.3",
     "prettier": "^2.8.4"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.2"
   }
 }
